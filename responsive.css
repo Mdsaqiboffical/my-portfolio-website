@@ -18,6 +18,12 @@
 }
 }
 
+@media (max-width:500px) {
+    .navbarNav .navbar-toggler-icon {
+        margin-left: -2em;
+    }
+}
+
 @media (max-width:992px) {
     .profile-content .profile-main{
         display: flex;
@@ -30,7 +36,7 @@
 
 @media (max-width:992px) {
     .top-img .img-2{
-      margin-left: 4em;
+      margin-left: 5em;
     }
 }
 
@@ -54,3 +60,56 @@
         margin-left: -32em;
     }
 }
+
+@media (max-width:500px) {
+    .projects-content .h-hov {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .projects-pera .title-respons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .projects-butn-1 {
+        margin-bottom: 2rem;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+@media (max-width:500px){
+    .blog-content .main-heading {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-img-blog img {
+        margin-top: 2.45rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width:500px){
+    .contact-content .main-cont{
+        display: flex;
+        justify-content: center;
+    }
+
+    .tog-icon-1 i {
+        font-size: 1em;
+    }
+    .cont-para span{
+        font-size: .8em;
+    }
+
+    .pera {
+        font-size: .8em;
+    }
+}
+
