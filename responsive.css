@@ -1,115 +1,166 @@
+ /* @media screen and (max-width:720px) {
+    .all-content-wrapper {
+        overflow-x: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen {
+    
+} */
+    
+
 @media  (max-width:1200px) {
     h1 {
         font-size: 2rem;
+        overflow-x: hidden;
     }
 }
 
-@media  (max-width:470px) {
+@media screen and (max-width: 720px) {
     h1 {
         font-size: 1.5rem;
+        overflow-x: hidden;
     }
     h2 {
             font-size: 1.5rem;
+            overflow-x: hidden;
         
     }
     h3 {
         font-size: 1.5rem;
+        overflow-x: hidden;
     
 }
 }
 
-@media (max-width:500px) {
-    .navbarNav .navbar-toggler-icon {
-        margin-left: -2em;
+@media (max-width:720px) {
+    /* .navbarNav .navbar-toggler-icon {
+        margin-left: -4em;
+    } */
+    .logo-name img span {
+        font-size: .5em;
+        overflow-x: hidden;
     }
 }
 
-@media (max-width:992px) {
+@media (max-width:720px) {
     .profile-content .profile-main{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding-top: 1.34rem;
+        overflow-x: hidden;
     }
 }
 
-@media (max-width:992px) {
-    .top-img .img-2{
-      margin-left: 5em;
+@media (max-width:720px) {
+    .top-img img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow-x: hidden;
+    }
+}
+
+@media (max-width:720px) {
+    .top-img img .img-2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow-x: hidden;
     }
 }
 
 @media  (max-width:991px) {
     .content-head .navbar-collapse{
         margin-top: -0.125rem;
+        overflow-x: hidden;
     } 
     .menu-navbar-nav {
         text-align: center;
         background-color: var(--bg-color-w);
         padding-bottom: 0.9372rem;
+        overflow-x: hidden;
     }
     .content-head .nav-item .nav-link{
         margin-top: 0.9375rem;
+        overflow-x: hidden;
     }
 }
 
-@media (max-width:992px){
+@media (max-width:720px){
    .blog-content .blog-img-3 img {
         flex-direction: column;
         margin-left: -32em;
+        overflow-x: hidden;
     }
 }
 
-@media (max-width:500px) {
+@media (max-width:720px) {
     .projects-content .h-hov {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        overflow-x: hidden;
     }
     .projects-pera .title-respons {
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
+        overflow-x: hidden;
     }
 
     .projects-butn-1 {
         margin-bottom: 2rem;
         justify-content: center;
         display: flex;
+        overflow-x: hidden;
     }
 }
 
-@media (max-width:500px){
-    .blog-content .main-heading {
+@media (max-width:720px){
+    .blog-content .main-heading .contact-content {
         display: flex;
         justify-content: center;
+        overflow-x: hidden;
     }
 
     .main-img-blog img {
         margin-top: 2.45rem;
         display: flex;
         justify-content: flex-start;
+        overflow-x: hidden;
     }
 }
 
-@media (max-width:500px){
+@media (max-width:720px){
     .contact-content .main-cont{
         display: flex;
         justify-content: center;
+        overflow-x: hidden;
     }
 
     .tog-icon-1 i {
         font-size: 1em;
+        overflow-x: hidden;
     }
     .cont-para span{
         font-size: .8em;
+        overflow-x: hidden;
     }
 
     .pera {
         font-size: .8em;
+        overflow-x: hidden;
     }
 }
 
+/* 992
+  768 
+  570 */
