@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* custom css */
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +22,7 @@
     --text-color: #c2772c;
     --heading-color: #780000;
     --p-color: #22223b;
+    --gradient-color: radial-gradient(to right, #f9ce34, #ee2a7b,#6228d7);
 }
 
 body {
@@ -93,6 +96,8 @@ p {
     line-height: 1.5rem;
 }
 
+/* custom css */
+
 /* start navbar */
 
 .content-head .navbar {
@@ -128,6 +133,8 @@ p {
 
 /* close navbar */
 
+/* start profile section */
+
 .profile-content {
     padding-top: 8rem;
     z-index: 1;
@@ -162,15 +169,9 @@ h3 span {
     border-radius: 10px;
 }
 
-/* @keyframes animation {
-    0% {
-        width: 0%;
-    }
-    100%{
-        width: 22%;
-    }
-    
-} */
+/* end profile section */
+
+/* start projects section */
 
 .projects-content .row .projects-img {
     transition: all .5s ease-in-out;
@@ -180,10 +181,15 @@ h3 span {
     transform: translateY(-20px);
 }
 
+/* start projects section */
+
+/* start blog section */
+
 .blog-img img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    border: 2px solid var(--bg-color-b);
     /* object-fit: cover; */
 
 }
@@ -193,6 +199,7 @@ h3 span {
     width: 200px;
     border-radius: 50%;
     margin-top: 4.5rem;
+    border: 2px solid var(--bg-color-b);
     /* margin-left: -2em; */
     /* object-fit: cover; */
 }
@@ -205,6 +212,7 @@ h3 span {
     top: -4em; */
     border-radius: 50%;
     margin-left: 20em;
+    border: 2px solid var(--bg-color-b);
     /* object-fit: cover; */
 }
 
@@ -246,7 +254,9 @@ div .blogs-pera {
 .right-img .blog-img:hover {
     transform: translateY(-20px);
 }
+/* end blog section */
 
+/* start contact section */
 
 .row {
     margin-top: 4rem;
@@ -290,12 +300,13 @@ div .blogs-pera {
 
 .cont-icon {
     font-size: 2.5rem;
-    color: var(--bg-color-b);
+    color: var(--bg-color-b );
     
 }
 
-.tog-icon-1 i {
+div .tog-icon-1 i {
     margin: 0 .85rem;
+    color: #000;
 }
 
 .tog-icon-1 .fac:hover {
@@ -303,7 +314,8 @@ div .blogs-pera {
 }
 
 .tog-icon-1 .ins:hover {
-    color: rgb(212, 4, 195);
+    /* color: rgb(212, 4, 195); */
+    color: #ee2a7b;
 }
 
 .tog-icon-1 .twi:hover {
@@ -323,3 +335,5 @@ div .pera-1 span {
     font-size: 1.875rem;
     font-weight: 500;
 }
+
+/* end blog section */
