@@ -78,6 +78,11 @@
           padding-top: 4em;
       }
   }
+  @media screen and (max-width:390px) {
+     .main-butn {
+        margin-bottom: 1rem;
+    }
+}
 
   @media screen and (max-width:720px) {
       div .blog-wrap-2 {
