@@ -145,11 +145,30 @@ p {
     align-self: center;
 }
 
-.top-img img {
+div .top-img{
     height: 20rem;
     width: 20rem;
     border-radius: 50%;
 }
+.top-img>img{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    /* object-fit: contain; */
+}
+
+/* .top-img .img-2{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50% !important;
+} */
+/* .img-2 img {
+    height: 16rem;
+    width: 14rem;
+}*/
+/* .img-2 {
+    border-radius: 50% !important;
+}  */
 
 h3 span {
     color: var(--text-color);
